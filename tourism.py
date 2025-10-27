@@ -16,7 +16,7 @@ def intro():
     st.markdown("# Discover the Future of African Tourism.\n## Insights, Innovation, and Impact in One Place")
     # st.title("Discover the Future of African Tourism.\nInsights, Innovation, and Impact in One Place")
     st.write("""
-        ### Welcome! Use the dropdown to explore other pages.
+        ##### Welcome! Use the dropdown to explore other pages.
     """)
 
 df = pd.read_csv('tourism_resource_dataset.csv')
