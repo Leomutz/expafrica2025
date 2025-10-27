@@ -4,6 +4,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+# Dataset: https://www.kaggle.com/datasets/ziya07/tourism-resource-management-dataset
+# credit on coding to: https://www.youtube.com/watch?v=GMHHD4autv8
 pd.set_option('display.max_columns', None)
 # sns.set(style='whitegrid')
 #Define page functions
