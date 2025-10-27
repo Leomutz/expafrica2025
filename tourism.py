@@ -9,7 +9,7 @@ import seaborn as sns
 pd.set_option('display.max_columns', None)
 # sns.set(style='whitegrid')
 
-st.logo("logo.jpeg")
+st.logo("logo.jpeg", link="https://expafrica2025-puqhfztukav7pu4gvwpkcq.streamlit.app/")
 #Define page functions
 def intro():
     st.title("Welcome to the Africa Tourism Dashboard")
