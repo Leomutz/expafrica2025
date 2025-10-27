@@ -13,7 +13,8 @@ st.logo("logo.jpeg", link="https://expafrica2025-puqhfztukav7pu4gvwpkcq.streamli
 #Define page functions
 def intro():
     # st.title("Welcome to the Africa Tourism Dashboard")
-    st.title("Discover the Future of African Tourism, Insights, Innovation, and Impact in One Place")
+    st.title("Discover the Future of African Tourism.")
+    st.title("Insights, Innovation, and Impact in One Place")
     st.write("""
         This is the introduction page. Use the dropdown to navigate to different pages.
     """)
