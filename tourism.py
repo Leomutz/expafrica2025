@@ -12,8 +12,8 @@ pd.set_option('display.max_columns', None)
 st.logo("logo.jpeg", link="https://expafrica2025-puqhfztukav7pu4gvwpkcq.streamlit.app/")
 #Define page functions
 def intro():
-    # st.title("Welcome to the Africa Tourism Dashboard")
-    st.title("Discover the Future of African Tourism.")
+    st.title("Welcome to the Africa Tourism Dashboard\nDiscover the Future of African Tourism.")
+    # st.markdown("")
     st.title("Insights, Innovation, and Impact in One Place")
     st.write("""
         This is the introduction page. Use the dropdown to navigate to different pages.
