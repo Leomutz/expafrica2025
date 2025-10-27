@@ -16,11 +16,13 @@ def intro():
     # st.title("Welcome to the Africa Tourism Dashboard")
     st.markdown("# Discover the Future of African Tourism.\n## Insights, Innovation, and Impact in One Place")
     # st.title("Discover the Future of African Tourism.\nInsights, Innovation, and Impact in One Place")
+    st.divider()
+    st.image(os.path.join(os.getcwd(),'static','picture3.jpeg'),width=500)
+    st.divider()
     st.write("""
         ##### Welcome! Use the dropdown to explore other pages.
     """)
-    st.divider()
-    st.image(os.path.join(os.getcwd(),'static','picture3.jpeg'),width=500)
+   
 
 df = pd.read_csv('tourism_resource_dataset.csv')
 #change the time stamp to 'datetime' data type
