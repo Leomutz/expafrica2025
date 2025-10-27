@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
+import os
 
 # Dataset: https://www.kaggle.com/datasets/ziya07/tourism-resource-management-dataset
 # credit on coding to: https://www.youtube.com/watch?v=GMHHD4autv8
@@ -18,6 +19,8 @@ def intro():
     st.write("""
         ##### Welcome! Use the dropdown to explore other pages.
     """)
+    st.divider()
+    # st.image(os.path.join(os.getcwd(),'static','photo_research_lab.jpeg'),width=500)
 
 df = pd.read_csv('tourism_resource_dataset.csv')
 #change the time stamp to 'datetime' data type
