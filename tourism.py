@@ -20,7 +20,7 @@ def intro():
         ##### Welcome! Use the dropdown to explore other pages.
     """)
     st.divider()
-    # st.image(os.path.join(os.getcwd(),'static','photo_research_lab.jpeg'),width=500)
+    st.image(os.path.join(os.getcwd(),'static','picture1.jpeg'),width=500)
 
 df = pd.read_csv('tourism_resource_dataset.csv')
 #change the time stamp to 'datetime' data type
