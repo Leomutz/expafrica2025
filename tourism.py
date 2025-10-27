@@ -8,6 +8,8 @@ import seaborn as sns
 # credit on coding to: https://www.youtube.com/watch?v=GMHHD4autv8
 pd.set_option('display.max_columns', None)
 # sns.set(style='whitegrid')
+
+st.logo("logo.jpeg")
 #Define page functions
 def intro():
     st.title("Welcome to the Africa Tourism Dashboard")
