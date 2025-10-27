@@ -111,6 +111,7 @@ def attraction_page():
     st.write("Tourism attraction information.")
 
     #Display a simple data frame 
+    #Dataset: https://rentechdigital.com/smartscraper/business-report-details/list-of-tourist-attractions-in-south-africa
     df = pd.read_csv("SA-Tourist_attractions.csv")
     # df_cleaned = df.dropna()
     st.dataframe(df)
